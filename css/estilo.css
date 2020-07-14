@@ -1,6 +1,40 @@
-@charset: utf-8;
+@charset: "utf-8";
+@font-face {
+	font-family: 'fonte1';
+	src:url('.;/fonts/OleoScriptSwashCaps-bold.ttf');
+}
+
+@font-face {
+	font-family: 'fonte2';
+	src:url('../fonts/Courgette-Regular.ttf');
+}
 
 body {
 	color: #b3b3b3;
 	background-color: black;
+	font-family: 'fonte1' , sans-serif;
+}
+
+h1#titulo {
+	text-decoration: none;
+	color: darkred;
+}
+
+a {
+	color: #b3b3b3;
+	text-decoration: none;
+}
+
+p#paginasecreta2{
+	color: darkred;
+}
+
+a#linksp2 {
+	color: darkred;
+}
+
+a#linksp2:hover {
+	color: darkgray;
+	text-decoration: underline;
+	transition: 1s;
 }
