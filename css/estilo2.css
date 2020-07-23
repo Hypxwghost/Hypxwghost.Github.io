@@ -9,22 +9,14 @@ body {
 	color: #b3b3b3;
 	background-color: black;
 	font-family: 'fonte2' , sans-serif;
-}
-
-h1 {
 	text-decoration: none;
 	color: darkred;
 	text-shadow: 2px 3px 6px #5f0303;
-}
-
-p {
-	color: darkred;
-	text-shadow: 2px 3px 6px #5f0303;
+	text-align: center;
 }
 
 a {
-	color: darkred;
-	text-shadow: 2px 3px 6px #5f0303;
+	color: rgb(153, 1, 72);
 }
 
 a:hover {
@@ -42,6 +34,7 @@ figure.gato {
 	position: absolute;
 	border: 8px solid white;
 	box-shadow: 1px 1px 10px 0px white;
+	left: 500px;
 }
 
 figure.gato figcaption {
