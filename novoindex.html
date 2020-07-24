@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link rel="stylesheet" type="text/css" href="css/estilo2.css">
 <!--Se você achou isso,você é bem esperto!--> 
 <!--Sai daqui,meu código '-' -->
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Página secreta 02</title>
 	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
 </head>
 <body>	
+<main role="main">
 	<h4>Bathory-The Lake</h4>
 	<audio controls autoplay>
 		<source src="media/2.m4a">
@@ -19,23 +21,25 @@
 <h1>Bem Vindo(a) a uma página inútil!</h1>
 <h2>Não espere algo de legal aqui!</h2>
 		<p>Estilo sinistro</p>
+	<nav>
 		<p><a href="https://github.com/gustavoguanabara" target="blank">Gustavo Guanabara</a> é um cara top,ensina várias coisas sobre programação!</p>
 		<p><a href="https://www.youtube.com/channel/UCGObNjkNjo1OUPLlm8BTb3A">Fábrica de noobs</a> também é um cara que manja,no canal dele tem muita coisa sobre redes,deep web e segurança!</p>
 		<p><a href="calculadora.html">Calculadora</a> com JavaScript!!</p>
 		<p><a href="velocidade.html">Script</a> para testar velocidade e multar vagabundo contra a lei '-'</p>
-		
+	</nav>
 		<br><p id="hora"></p>
 
 
 <figure class="gato">
-	<img src="media/gato.jpg">
+	<img src="media/gato.jpg" alt="Gato">
 	<figcaption>
 		<h3>Gato fofo para melhorar seu dia!</h3>
 	</figcaption>
 </figure>
+</main>
 <script>
 	var d = new Date();
 	document.getElementById("hora").innerHTML = d;
-	</script>
+</script>
 </body>
 </html>
