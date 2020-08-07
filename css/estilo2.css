@@ -2,14 +2,14 @@
 
 @font-face {
 	font-family: 'fonte2';
-	src:url('../fonts/Courgette-Regular.ttf');
+	src:url('../fonts/rapscript/RapScript_Fade_09.otf');
 }
 
 body {
 	background-color: black;
 	font-family: 'fonte2' , sans-serif;
 	text-decoration: none;
-	color: darkred;
+	color: #b90000;
 	text-shadow: 2px 3px 6px #5f0303;
 	text-align: center;
 }
@@ -36,7 +36,7 @@ figure.gato {
 	position: absolute;
 	border: 8px solid white;
 	box-shadow: 1px 1px 10px 0px white;
-	left: 500px;
+	left: 350px;
 }
 
 figure.gato figcaption {
@@ -54,6 +54,7 @@ figure.gato figcaption {
 	transition: opacity 1s;
 	text-shadow: 10px 6px 4px black;
 	margin-bottom: 4px;
+	font-size: smaller;
 }
 
 figure.gato:hover figcaption {
