@@ -8,19 +8,14 @@
 	<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
 </head>
-<body>	
+<body onload="carregar()">	
 <main>
-	<h3>Wide Putin theme</h3>
-	<audio controls>
-		<source src="media/2.mp3">
-		Your browser does not support the audio element.
-	</audio> 
-	<h3>Equinox-The Proper People</h3>
-	<audio controls autoplay>
-		<source src="media/Equinox-The Proper People.m4a">
-		Your browser does not support the audio element.
-	</audio>
-
+		<div id="msg">
+			Algo de errado!
+		</div>
+		<div id="msg2">
+			Algo de errado,msg2
+		</div>
 <h1>Bem Vindo(a) a uma página inútil!</h1>
 <h2>Não espere algo de legal aqui!</h2>
 		<p>Estilo sinistro</p>
@@ -29,9 +24,8 @@
 		<p><a href="https://www.youtube.com/channel/UCGObNjkNjo1OUPLlm8BTb3A" target="blank">Fábrica de noobs</a> também é um cara que manja,no canal dele tem muita coisa sobre redes,deep web e segurança!</p>
 		<p><a href="calculadora.html" target="blank">Calculadora</a> com JavaScript!!</p>
 		<p><a href="velocidade.html" target="blank">Script</a> para testar velocidade e multar vagabundo contra a lei '-'</p>
+		<p><a href="idade.html" target="blank">Verificador</a> de idade</p>
 	</nav>
-		<br><p id="hora"></p>
-
 
 <figure class="gato">
 	<img src="media/gato.jpg" alt="Gato">
@@ -40,9 +34,6 @@
 	</figcaption>
 </figure>
 </main>
-<script>
-	var d = new Date();
-	document.getElementById("hora").innerHTML = d;
-</script>
+<script src="script.js"></script>
 </body>
 </html>
