@@ -15,8 +15,7 @@ function carregar() {
     
             if (gtseconds < 10) {
                 gtseconds =`0${gtseconds}`
-            }
-                    
+            }         
         hours.textContent = `Agora são ${gthours} horas,${gtminutes} minutos e ${gtseconds} segundos`
     }
         var tictac = setInterval (hours, 1000)

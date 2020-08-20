@@ -6,25 +6,24 @@
 }
 
 body {
-	background-color: black;
+	background-color: #242424;
 	font-family: 'fonte2' , sans-serif;
 	text-decoration: none;
-	color: #b90000;
-	text-shadow: 2px 3px 6px #5f0303;
+	color: rgb(221, 221, 221);
 	text-align: center;
 }
-strong {
-	color: rgb(199, 2, 2);
+
+div#msg {
+	color: rgb(221, 221, 221)
 }
 
 a {
-	color: rgb(153, 1, 72);
+	color: rgb(163, 163, 163);
 }
 
 a:hover {
-	color: darkgray;
+	color: rgb(255, 255, 255);
 	text-decoration: underline;
-	text-shadow: 2px 3px 6px darkgray;
 	transition: 1.5s;
 }
 
