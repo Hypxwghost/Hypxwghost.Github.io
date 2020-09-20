@@ -1,29 +1,30 @@
 @charset "utf-8";
 @font-face {
-	font-family: 'fonte1';
-	src:url('../fonts/OleoScriptSwashCaps-Regular.ttf');
+    font-family: 'fonte1';
+    src: url('../fonts/OleoScriptSwashCaps-Regular.ttf');
 }
 
 @font-face {
-	font-family: 'fonte2';
-	src:url('../fonts/Courgette-Regular.ttf');
+    font-family: 'fonte2';
+    src: url('../fonts/Courgette-Regular.ttf');
 }
 
 body {
-	color: #b3b3b3;
-	background-color: black;
-	text-align: center;
+    color: #b3b3b3;
+    background-color: black;
+    text-align: center;
 }
 
 h1#titulo {
-	text-decoration: none;
-	color: darkred;
-	text-shadow: 2px 3px 6px #5f0303;
+    text-decoration: none;
+    color: darkred;
+    text-shadow: 2px 3px 6px #5f0303;
 }
 
-	/*links*/
+
+/*links*/
 
 a {
-	color: #b3b3b3;
-	text-decoration: none;
+    color: #b3b3b3;
+    text-decoration: none;
 }
