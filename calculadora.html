@@ -4,8 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo2.css">
     <title>Calculadora</title>
+    <style>
+        @charset "utf-8";
+        @font-face {
+        font-family: 'fonte2';
+        src: url('./fonts/Courgette-Regular.ttf');
+        }
+        body {
+            color: lightgray;
+            background-color: #242424;
+            font-family: 'fonte2', sans-serif;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,6 +32,9 @@
             var tn1 = window.document.getElementById('txtn1')
             var tn2 = window.document.querySelector('input#txtn2')
             var res = window.document.getElementById('res')
+            if (tn1.value == 0 && tn2.value == 0) {
+                window.alert('INSIRA NÙMEROS VÀLIDOS!!')
+            }else
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
             var s = n1 + n2
