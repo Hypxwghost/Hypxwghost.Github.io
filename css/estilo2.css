@@ -25,3 +25,24 @@ a:hover {
     text-decoration: underline;
     transition: 1.5s;
 }
+
+footer#rodape {
+    clear: both;
+    margin: 380px auto 0px auto;
+}
+
+footer#rodape p {
+	text-align: center;
+	color: rgb(196, 196, 196);
+}
+
+footer#rodape a {
+	color: rgb(196, 196, 196);
+	text-decoration: none;
+}
+
+footer#rodape a:hover {
+	text-decoration: underline;
+	color: rgb(64, 2, 105);
+	transition: 1.5s;
+}
