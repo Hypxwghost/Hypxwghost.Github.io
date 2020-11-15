@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 <head>
-	<title>Página em desenvolvimento!</title>
-	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inutil .-.</title>
+    <!--Icone-->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" type="text/css" href="css/estilo2.css">
 </head>
 
-<body>
-	<h1>Error 404</h1>
-	<p>Página não encontrada!</p>
-	<p>Tente novamente <a href="paginatemporaria2.html">mais</a> tarde.</p>
+<body onload="carregar()">
+    <!-- Mensagem de erro caso display de hora e data dar errado -->
+    <div id="msg">
+        Algo de errado!
+    </div>
+    <div id="msg2">
+        Algo de errado,msg2
+    </div>
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        body {
+            background-image: url('./media/background.jpg');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <h1>Bem Vindo(a) a uma página inútil!</h1>
+    <h2>Não espere algo de legal aqui!</h2>
+    <nav>
+        <p><a href="calculadora.html" target="blank">Calculadora</a> com JavaScript!!</p>
+        <p><a href="velocidade.html" target="blank">Script</a> para testar velocidade e multar vagabundo contra a lei   '-'</p>
+        <p><a href="idade.html" target="blank">Verificador</a> de idade</p>
+        <p><a href="https://www.pexels.com/@stywo?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="blank">Autor</a> da <a href="https://www.pexels.com/photo/snow-capped-mountains-under-the-cloudy-skies-1054289/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="blank">Imagem</a>,em<a href="https://www.pexels.com/" target="blank"> Pexels</a></p>
+    </nav>
+    <script src="script.js"></script>
 </body>
 
 </html>
